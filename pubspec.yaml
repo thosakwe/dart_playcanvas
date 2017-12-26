@@ -1,0 +1,12 @@
+name: playcanvas
+dependencies:
+  func: ^1.0.0
+  js: ^0.6.0
+dev_dependencies:
+  browser: ^0.10.0
+  dart_to_js_script_rewriter: ^1.0.0
+dev_transformers:
+  - dart_to_js_script_rewriter
+web:
+  compiler:
+    debug: dartdevc
